@@ -3,14 +3,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>RHitchcock Website</title>
 	<link href="css/jquery.bxslider.css" rel="stylesheet"/>
-	<link rel="stylesheet" href="css/smoothslides.css">
 	<link href="style.css" rel="stylesheet">
 	<link href="css/nav.css" rel="stylesheet">
 
 </head>
 <body>
-	<script src="js/jquery-1.11.2.min.js"></script>
-	<script src="js/main.js"></script> <!--- For Navigation -->
 	<a name="home">
 <!--- Start Navigation -->
 
@@ -34,7 +31,6 @@
 <!--- End Navigation -->
 	<div class="clearfix"></div>
 <!--- Start Slider -->
-		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
 		<div class="slide-wrap">
 			<section class="slider">
 				<ul class="slider1">
@@ -44,30 +40,6 @@
 				</ul>
 			</section>
 		</div>
-		<script type="text/javascript">
-			$('.slider1').bxSlider({
-				mode: 'fade',
-				captions: false,
-				auto:true,
-				pager:false,
-
-			});
-			$('.slider2').bxSlider({
-				pager:false,
-				captions: true,
-				maxSlides: 3,
-				minSlides: 1,
-				slideWidth: 230,
-				slideMargin: 10
-			});
-			$('.slider3').bxSlider({
-				mode: 'fade',
-				captions: false,
-				auto:true,
-				pager:false,
-				controls:false,
-			});
-		</script>
 		<!--- End Slider -->
 	<a name="about">
 		<!--Start Banner Wrapper-->
@@ -85,7 +57,7 @@
 	<!--End Banner Wrapper-->
 	<div class="clearfix"></div>
 	<!--Start Parallax Section-->
-	<section class="parallax-1">
+	<section class="parallax parallax-1">
 		<div class="parallax-inner">
 		</div>
 	</section>
@@ -97,12 +69,12 @@
 			<p>As a leading provider of custom iron and woodwork designs, we take pride in offering the best construction services. We are dedicated to serving and satisfying the needs of our customers every day. We are a 38 year old company with a long standing reputation for excellence in project design and construction, specializing in the art of handmade iron and wood fittings. This element is what sets HL Stair apart from our competitors, providing endless possibilities to the creative imaginations behind every project. Our projects have been published in leading interior design magazines in Colorado. </p>
 		</section>
 		<section class="sidebar">
-			<img src="img/Rod4.jpg" alt="Rod4.jpg">
+			<img src="img/Rod4.jpg" alt="Rod4.jpg" width="100%" height="100%">
 		</section>
 		<!--End Banner Wrapper-->
 	<div class="clearfix"></div>
 		<!-- Start Parallax Section-->
-	<section class="parallax-2">
+	<section class="parallax parallax-2">
 		<div class="parallax-inner">
 			<section class="one-third">
 				<h3>Customer Focused</h3>
@@ -150,7 +122,7 @@
 	<div class="clearfix"></div>
 		<!--End Banner Wrapper-->
 		<!--Start Parallax section-->
-	<section class="parallax-3">
+	<section class="parallax parallax-3">
 			<div class="parallax-inner">
 			</div>
 		<!-- End Parallax Section-->
@@ -176,6 +148,33 @@
 			<p><a href="http://www.mark-hayden.pro" target="_blank">Website designed and coded by Mark Hayden</a></p>
 		</footer>
 		<!--End Banner Wrapper-->
-	<script type="text/javascript" src="js/smoothslides.js"></script>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/main.js"></script> <!--- For Navigation -->
+	<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+	<script type="text/javascript">
+		$('.slider1').bxSlider({
+			mode: 'fade',
+			captions: false,
+			auto:true,
+			pager:false,
+
+		});
+		$('.slider2').bxSlider({
+			pager:false,
+			captions: true,
+			maxSlides: 3,
+			minSlides: 1,
+			slideWidth: 230,
+			slideMargin: 10
+		});
+		$('.slider3').bxSlider({
+			mode: 'fade',
+			captions: false,
+			auto:true,
+			pager:false,
+			controls:false,
+		});
+	</script>
+
 </body>
 </html>

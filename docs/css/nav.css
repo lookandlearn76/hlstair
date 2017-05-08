@@ -3,7 +3,7 @@
 .nav-outer {
 	width: 100%;
 	height: 67px;
-	background: #505E67;
+	background: #262E37;
 	position: fixed !important;
 	z-index: 100000000;
 }
@@ -13,7 +13,7 @@
 }
 nav {
 	margin-top: 0;
-	background: #505E67;
+	background: #262E37;
 	font-family: 'Questrial', sans-serif;
 }
 .nav ul {
