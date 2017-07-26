@@ -135,3 +135,17 @@ $(document).ready(function() {
 	});
 
 });
+
+$(document).ready(function(){
+	setListen();
+});
+
+function setListen(){
+	$('li a.first').click(function(one){
+		one.preventDefault();
+		var sectionID = one.currentTarget.id + "Section";
+		$('html body').animate({
+			scrollTop: $('#' + sectionID).offset().top
+		}, 1000)
+	})
+};
