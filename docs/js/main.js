@@ -141,7 +141,7 @@ $(document).ready(function(){
 });
 
 function setListen(){
-	$('li a.first').click(function(one){
+	$('li a.first a').click(function(one){
 		one.preventDefault();
 		var sectionID = one.currentTarget.id + "Section";
 		$('html body').animate({
